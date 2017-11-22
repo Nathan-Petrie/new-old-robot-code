@@ -1,6 +1,8 @@
 package org.usfirst.frc.team4610.robot.subsystems;
 
 
+import org.usfirst.frc.team4610.robot.commands.TankDriveWithJoysticks;
+
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.Joystick.AxisType;
 import edu.wpi.first.wpilibj.RobotDrive;
@@ -49,7 +51,7 @@ public class DriveTrain extends Subsystem {
 	 */
 	@Override
 	public void initDefaultCommand() {
-		setDefaultCommand(new TankDriveWithJoystick());
+		setDefaultCommand(new TankDriveWithJoysticks());
 	}
 
 	public void drive(double left, double right) {
