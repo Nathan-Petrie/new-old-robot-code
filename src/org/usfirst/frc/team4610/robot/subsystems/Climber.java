@@ -12,7 +12,7 @@ public class Climber extends Subsystem {
 		
 	}
 
-	public void Climb() {
+	public void climb() {
 		climbMotor.set(1);
 	}
 }

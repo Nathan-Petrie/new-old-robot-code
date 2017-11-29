@@ -10,12 +10,12 @@ public class GoUpScore50 extends Command {
 	}
 
 	protected void initialize() {
-		Robot.climber.Climb();
+		Robot.climber.climb();
 	}
 	
 	@Override
 	protected boolean isFinished() {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 
